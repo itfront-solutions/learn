@@ -1,0 +1,188 @@
+ PRD – Plataforma de Ensino com Governança e IA
+1. Visão Geral
+Criar uma plataforma educacional colaborativa, onde qualquer pessoa possa ensinar ou aprender. A governança será orientada por dados e inteligência artificial, que ajudará na criação de objetos educacionais, curadoria de conteúdo, recomendações personalizadas e mediação da qualidade.
+
+2. Objetivos
+Facilitar a aprendizagem e o ensino de forma aberta, segura e eficiente.
+
+Democratizar o conhecimento com validação e curadoria automatizadas por IA.
+
+Permitir o envio de conteúdos multimídia, como vídeos, PDFs e slides.
+
+Integração com ferramentas de videoconferência: Google Meet, Zoom, Microsoft Teams, etc.
+
+Oferecer governança por meio de algoritmos e regras claras, mantendo qualidade, segurança e relevância.
+
+3. Público-Alvo
+Estudantes (de ensino básico ao superior)
+
+Professores, mentores e especialistas
+
+Empresas que desejam treinar colaboradores
+
+Criadores de conteúdo educacional
+
+ONGs e iniciativas sociais
+
+4. Funcionalidades Principais (Requisitos Funcionais)
+4.1. Cadastro e Perfis
+Cadastro via e-mail, Google ou redes sociais.
+
+Escolha entre perfil de aluno, professor ou ambos.
+
+Sistema de verificação e reputação.
+
+4.2. Criação de Cursos
+Upload de vídeos, PDFs, imagens e textos.
+
+Editor de aula com apoio de IA para sugerir estrutura (introdução, tópicos, exercícios).
+
+Templates de cursos para facilitar o design didático.
+
+4.3. Objetos Educacionais com IA
+Geração de resumos, quizzes e flashcards a partir do conteúdo.
+
+Sugestão de trilhas de aprendizagem.
+
+Avaliação de legibilidade e adequação pedagógica.
+
+4.4. Governança Inteligente
+Sistema de denúncia e curadoria automatizada.
+
+Reputação baseada em avaliações, conclusão de cursos e feedbacks.
+
+IA para identificar plágio, conteúdo ofensivo ou inadequado.
+
+4.5. Aulas Ao Vivo
+Integração com Google Meet, Zoom e Microsoft Teams.
+
+Agendamento de aulas com notificações.
+
+Sala de aula virtual com chat, enquetes e quadro interativo.
+
+4.6. Gamificação
+Pontuação por participação, criação de conteúdo e finalização de cursos.
+
+Badges e conquistas.
+
+4.7. Plataforma Multicanal
+Versão web responsiva + app (fase posterior)
+
+Notificações por e-mail, push e WhatsApp (via API)
+
+5. Funcionalidades Não Funcionais
+Sistema escalável e modular (ex: arquitetura microservices).
+
+Alta disponibilidade e segurança dos dados (LGPD/GDPR).
+
+Suporte a múltiplos idiomas (internacionalização futura).
+
+Performance otimizada para dispositivos móveis.
+
+6. Tecnologias Sugeridas
+Frontend: React.js / Next.js
+
+Backend: Node.js ou Python (Django ou FastAPI)
+
+Banco de Dados: PostgreSQL + Redis
+
+IA/ML: OpenAI API / Hugging Face / TensorFlow para curadoria e recomendação
+
+Armazenamento: AWS S3, Firebase Storage
+
+Videoconferência: APIs do Google Meet, Zoom, Jitsi
+
+Auth: OAuth 2.0 / Firebase Auth
+
+🚀 MVP – Minimum Viable Product
+Objetivo do MVP:
+Lançar uma versão funcional básica da plataforma com foco na publicação de cursos e aulas ao vivo com integração externa, além de funcionalidades iniciais de IA.
+
+MVP - Funcionalidades Essenciais
+Cadastro e Login
+
+Via e-mail e Google
+
+Seleção de perfil: aluno / professor
+
+Criação de Cursos
+
+Upload de vídeos e PDFs
+
+Criação de aulas com título, descrição e tópicos
+
+Suporte básico a categorias e tags
+
+Integração com Videoconferência
+
+Criação de links para Google Meet ou Zoom
+
+Agendamento de aulas ao vivo
+
+IA Básica
+
+Sugestão automática de título e descrição com base no conteúdo
+
+Geração automática de quiz simples com 3 perguntas por aula
+
+Acesso ao Curso
+
+Tela com lista de cursos disponíveis
+
+Página individual do curso com conteúdo acessível
+
+Governança Inicial
+
+Sistema de denúncias
+
+Avaliação por estrelas e comentários
+
+Dashboard Simples
+
+Área do aluno: cursos assistidos
+
+Área do professor: cursos criados e estatísticas básicas
+
+MVP – Tecnologias Enxutas
+Frontend: React.js (Vite)
+
+Backend: Node.js com Express
+
+Banco: PostgreSQL (com Sequelize)
+
+Autenticação: Firebase Auth ou Auth0
+
+Armazenamento de vídeo: Firebase Storage / Vimeo / YouTube (embed)
+
+IA: OpenAI API (GPT-4 ou GPT-3.5 para geração de quizzes e descrições)
+
+Videoconferência: Integração via link do Google Meet ou Zoom
+
+Roadmap Pós-MVP (Próximas Fases)
+IA Avançada
+
+Correção de redação automática
+
+Detecção de plágio e conteúdo ofensivo
+
+Gamificação
+
+Ranking, conquistas, badges
+
+Marketplace de Cursos
+
+Venda de cursos pagos
+
+Gateway de pagamento (Stripe / Mercado Pago)
+
+Mobile App
+
+App React Native com acesso offline
+
+Analytics para Professores
+
+Relatórios de desempenho dos alunos
+
+Comunidade & Fórum
+
+Interação entre alunos e professores
